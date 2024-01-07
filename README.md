@@ -6,8 +6,6 @@ Small python script to change git remote urls after profile rename.
 usage: github-rename.py [-h] [--recursive] [--max-depth MAX_DEPTH]
                         pattern replacement dir_path
 
-Rename a GitHub repo
-
 positional arguments:
   pattern               e.g. 'git@github.com:oldname/'
   replacement           e.g. 'git@github.com:newname/'
