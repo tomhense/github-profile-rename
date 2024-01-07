@@ -43,7 +43,7 @@ def git_repo_rename(repo_path: str, pattern: str, replacement: str) -> None:
 
 
 if __name__ == "__main__":
-	parser = argparse.ArgumentParser(description='Rename a GitHub repo')
+	parser = argparse.ArgumentParser(description='Rename github remote urls')
 	parser.add_argument('--recursive', '-r', action='store_true', help='Recursively search for repos')
 	parser.add_argument('--max-depth', '-d', type=int, default=1000, help='Maximum recursion depth')
 	parser.add_argument('pattern', help="e.g. 'git@github.com:oldname/'")
